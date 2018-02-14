@@ -25,5 +25,5 @@
 
 - Vista Desktop
 
-![NY-times](assets/images/NY-time.png)
+![NY-times](public/assets/images/NY-time.png)
 
