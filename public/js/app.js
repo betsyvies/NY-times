@@ -43,7 +43,7 @@ function addNews() {
     div.className = 'container';
 
     text.innerHTML = snippet;
-    img.setAttribute('src', imgUrl);
+    img.setAttribute('src', 'https://static01.nyt.com/' + imgUrl);
     h1.innerHTML = title; 
 
     div.appendChild(h1);
