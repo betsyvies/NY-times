@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-- El objetivo de esta pagina es mostrar una noticia relaciona a la palabra que escriba en el input. 
+- El objetivo de esta pagina es mostrar noticias relacionas a la palabra que escriba en el input, estas noticias tienen título, imagen he información. Usando ajax orientado a objetos.
 
 ## Herramientas Utilizadas
 
