@@ -31,24 +31,30 @@ function addNews() {
     const title = element.headline.main;
     const snippet = element.snippet;
     const imgUrl = element.multimedia[2].url;
+    const webUrl = element.web_url;
   
     let h1 = document.createElement('h1');
     let img = document.createElement('img');
     let text = document.createElement('p');
+    let link = document.createElement('a');
     let div = document.createElement('div');
 
     text.className = 'articleClass';
     img.className = 'imgClass';
     h1.className = 'title';
+    link.className = 'link';
     div.className = 'container';
 
     text.innerHTML = snippet;
     img.setAttribute('src', 'https://static01.nyt.com/' + imgUrl);
+    link.setAttribute('href', webUrl);
+    link.textContent = 'Read more';
     h1.innerHTML = title; 
 
     div.appendChild(h1);
     div.appendChild(img);
     div.appendChild(text);
+    div.appendChild(link);
   
     responseContainer.appendChild(div);
   });
